@@ -1,0 +1,30 @@
+@import '~reset-css/sass/reset';
+
+body {
+  @include fontFamily;
+
+  background: var(--color-black);
+  color: var(--color-white);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+pre {
+  font-family: monospace;
+  padding: 2px;
+}
+
+:root {
+  --color-black: #000;
+  --color-grey: #333;
+  --color-white: #fff;
+
+  --color-calendar-graph-day-border: rgba(27, 31, 35, 0.5);
+  --color-calendar-graph-day-bg: #161b22;
+  --color-calendar-graph-day-L1-bg: #9be9a8;
+  --color-calendar-graph-day-L2-bg: #40c463;
+  --color-calendar-graph-day-L3-bg: #30a14e;
+  --color-calendar-graph-day-L4-bg: #216e39;
+}
